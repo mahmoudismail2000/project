@@ -1,0 +1,1343 @@
+body{
+    margin: 0;
+    height: 2000px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+p, h1, h2, h3,span ,td ,a{
+    font-family:'Roboto', sans-serif;
+}
+h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+.home{
+    background-image: url('../images/hero\ img.jpg');
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);    
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgba(56, 56, 56, .1); 
+    width: 100%;
+}
+.navbar .fok{
+    
+    float: left;
+    width: 30%;
+    text-align: center;
+    color:#FF305B;
+}
+.navbar .navs{
+    
+    float: left;
+    width: 70%;
+}
+.navbar .navs ul{
+    overflow: hidden;
+    list-style: none;
+    float: right;
+    margin-right: 120px;
+}
+.navbar .navs ul li{
+    float: left;
+    padding: 8.5px;  
+}
+.navs ul li a{
+    color:white;
+}
+.navbar .navicon{
+
+    display: flex;
+    
+}
+.navbar .navicon i{
+    font-size: 30px;
+    
+}
+.navbar .navs .lia{
+    color: #FF305B;
+}
+.alex{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    
+}
+.alex h1{
+    font-size: 77px;
+    font-weight: 700;
+    color: #FF305B;
+}
+.alex h3{
+    font-size: 24px;
+    font-weight: 600;
+    color:white;
+}
+.alex p{
+    font-size: 26px;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.alex p::after{
+    content: " | ";
+    animation-name: letters;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes letters{
+    0%{
+        content: "D |";
+    }
+    5%{
+        content: "De |";
+    }
+    10%{
+        content: "Dev |";
+    }
+    15%{
+        content: "Devo |";
+    }
+    20%{
+        content: "Devel |";
+    }
+    25%{
+        content: "Develo |";
+    }
+    30%{
+        content: "Develop |";
+    }
+    35%{
+        content: "Develope |";
+    }
+    45%{
+        content: "Developer |";
+    }
+    50%{
+        content: "Develope |";
+    }
+    55%{
+        content: "Develop |";
+    }
+    60%{
+        content: "Develo |";
+    }
+    65%{
+        content: "Devel |";
+    }
+    70%{
+        content: "Deve |";
+    }
+    75%{
+        content: "Dev |";
+    }
+    80%{
+        content: "De |";
+    }
+    85%{
+        content: " |";
+    }
+    90%{
+        content: "D |";
+    }
+    95%{
+        content: "De |";
+    }
+    100%{
+        content: "Dev |";
+    }
+
+}
+
+
+
+
+
+/*          Hello            */
+
+
+
+/* .layerphoto{
+    background-color: #FF305B;
+    
+    width: 100%;
+    height: 300px;
+    
+} */
+
+
+.hello{
+    margin-top: 80px;
+    overflow: hidden;
+    
+   
+}
+.hellophoto{
+
+    width: 50%;
+    float: left;
+    position: relative;
+   
+    
+    
+}
+
+.hellocaption{
+
+    width: 50%;
+    float: left;
+}
+
+.layerphoto{
+    
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 350px;
+    border-radius: 8px;
+    
+    
+    
+}
+.layerphoto img{
+    width: 100%;
+    
+}
+.photo .layerphoto .layerstyle{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(82, 82, 82, 0.6);
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    transition: .5s;
+    
+}
+.layerstyle .iconsstyle{
+    margin-top:170px;
+}
+.layerstyle .iconsstyle i{
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.photo .layerphoto:hover .layerstyle{
+    top: 0;
+
+}
+
+
+
+.borderhello{   
+    width: 39%;
+    height: 85%;
+    position: absolute;
+    border: 8px solid #555555;
+    margin-left: 325px ;
+    margin-top: 30px;  
+    border-radius: 8px;  
+}
+.photo{
+    overflow: hidden;
+}
+
+.hellocaption h2 span{
+    color: #FF305B;
+}
+
+.hellocaption hr{
+    border-top: 1px dashed rgb(95, 95, 95);
+    margin-right: 100px;
+}
+.inform{
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+.inform span{
+    font-weight: bold;
+}
+.hellobtn button{
+    background-color: #FF305B;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+    
+
+}
+.hellobtn button:hover{
+    background-color: #cc1f41;
+    
+    
+
+}
+
+.hellocaption p{
+    padding-right: 120px;
+    
+}
+
+
+
+
+
+
+/* SERVICES */
+
+
+.services{
+    background-color:#F1F1F1;
+    margin-top: 80px;
+    text-align: center;
+    height: 70vh;
+}
+.services h2{
+    padding-top: 70px;
+}
+.hr1{
+    width: 5%;
+    border: 1px solid red;
+   
+}
+.hr2{
+    width: 15%;
+    border: 1px solid red;
+}
+.hr3{
+    width: 5%;
+    border: 1px solid red;
+}
+
+.container1{   
+    width: 80%;
+    margin:auto;
+    overflow: hidden;  
+    padding: 20px;
+    margin-top: 30px;    
+}
+.product{   
+    width: 25%;
+    float: left;
+    transition: all .3s;
+   
+ 
+}
+.product:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(134, 134, 134, 0.7);  
+}
+
+.product p{
+    padding: 20px 5px;
+}
+.product i{
+    font-size: 30px;
+    color: #FF305B;
+    padding-top: 30px;
+}
+
+
+
+
+/* PORTFOLIO */
+
+.portfolio{
+    margin-top: 80px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.collection{
+    margin: 30px 0px;
+}
+.collection a{
+    padding: 12px;
+    color: black;    
+}
+.collection  a span{
+    color: #FF305B;
+    
+}
+
+
+.container2{
+    width: 80%;
+    margin: auto;
+   
+}
+.sales{
+    width: 33.333%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    border: 15px solid white;
+    
+}
+.sales .salesanima{
+    background-color:rgba(99, 99, 99, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .3s;
+    
+    
+    
+       
+    
+}
+.container2 img{
+    width: 100%;
+}
+.sales i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+    margin: 15px;
+    color: #FF305B;
+    
+}
+
+.sales:hover .salesanima{
+    opacity: 1;
+}
+
+
+
+
+/* Timer */
+
+
+.timer{
+    margin-top: 80px;
+    background-color: #F1F1F1;
+    
+
+}
+.container3{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+.part{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 60px 0px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.part i{
+    color: #FF305B;
+    font-size: 25px;
+}
+.part > p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.clients{
+
+    text-align: center;
+   
+    margin-top: 80px;
+}
+.hr3{
+    margin-bottom: 50px;
+}
+.container4{
+    width: 80%;
+    
+    margin: auto;
+    
+}
+.alexander{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-color:  #F1F1F1;
+    border-radius: 8px;
+}
+.alexander::before{
+    content: " ";
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    top: 0;
+    background-color:#FF305B;
+    transform: skew(-50deg);
+    left: -110px;   
+}
+ 
+
+
+.alexphoto{
+    float: left;
+    width: 20%;
+    position: absolute;
+}
+.alexcaption{
+    float: left;
+    width: 80%;
+    text-align: left;
+    margin-left: 140px;
+    margin-top: 15px;
+    
+}
+
+.alexcaption p{
+    padding-right: 20px;
+    
+}
+
+.alexphoto img{
+    width: 70%;
+    border-radius: 100%;
+    margin-top: 40px;
+}
+.alexicons{
+    margin-bottom: 50px;
+}
+
+.alexicons i{
+    color: #F1C30D;
+}
+
+.choose {
+   
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+
+    
+    
+    
+}
+.choose1{
+    width: 2%;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #ee2b52;
+    float: left;
+    margin-left: 550px;
+   margin-right: 10px;
+
+}
+.choose2{
+    width: .7%;
+    height: 8px;
+    border: 1px solid #ee2b52;
+    border-radius: 100%;
+    
+    float: left;
+    
+}
+
+
+
+
+
+/* Blogs */
+
+
+
+.blogs{
+    text-align: center;
+    margin-top: 80px;
+    background-color: #F1F1F1;
+}
+
+
+.container5{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    overflow: hidden;
+    padding-bottom: 70px;
+    
+
+}
+.blog{
+    width:33.333333%;
+    float: left;
+    box-sizing: border-box;
+    border: 15px solid #F1F1F1;
+    
+
+}
+.blog img{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 205px;
+      
+}
+.blogcaption{
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+.blogs h2{
+    padding-top: 70px;
+}
+
+.blogcaption a:hover{
+    color: #FF305B;
+
+}
+
+.blogcaption > a{
+    color:black;
+    font-size: 24px;
+
+}
+
+.blogcaption a span{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+/* Contacts */
+
+
+.contacts{
+    
+    text-align: center;
+}
+.container6{
+   
+    width: 50%;
+    margin: auto;
+}
+
+
+.contactsform input:focus , textarea:focus{
+   outline-color: #cc1f41;
+}
+.contactsform .input1{
+    float: left;
+    width: 48.5%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid rgba(122, 122, 122, 0.5);
+    
+}
+.contactsform .input2{
+    float: left;
+    width: 48.7%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 2px solid rgba(122, 122, 122, 0.5);
+}
+.contactsform .input3{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin:20px 0px;
+    border: 2px solid rgba(122, 122, 122, 0.5);
+
+}
+.contactsform textarea{
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 20px;
+    border: 2px solid rgba(122, 122, 122, 0.5);
+}
+.btnblog{
+    text-align: left;
+}
+.btnblog button:hover{
+    background-color: #ee2b52;
+}
+.contactsform button{
+    padding: 15px 15px;
+    color: white;
+    background-color: #FF305B;
+    border: 0px;
+    border-radius: 5px;
+    
+    
+}
+
+
+/* Footer */
+
+.webfooter{
+    margin-top: 80px;
+    background-color: #333333;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footericons{
+    margin-top: 50px;
+    
+}
+.webfooter p{
+    padding-bottom: 40px;
+    color: white;
+    
+}
+
+.webfooter i{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.webfooter p a{
+    color: #FF305B;
+}
+
+
+
+
+@media (max-width:575px){
+    .home .container ul li{
+        display: none;
+    }
+
+    .timer .part{
+        width: 50%;
+    }
+
+  
+    .home ul{
+        background-color: #333333;
+        display: none;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home .navs{
+        width: 40%;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: center;
+        
+    }
+    .home {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .navbar .navicon{
+        opacity: 1;
+        color: #FF305B;
+        width: 60px;
+        height: 40px;
+        
+       
+    }
+    .alex h1{
+        font-size: 35px;
+    }
+    .alex p{
+        font-size: 18px;
+    }
+
+    .hello .hellophoto{
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+    }
+    .borderhello{
+        width: 60%;
+        margin-left: 15px;
+    }
+    .layerphoto{
+        width: 80%;
+        margin-left: 40px;   
+    }
+    .photo{
+        width: 80%;  
+    }
+    .hellocaption{
+        width: 100%;
+        margin-left:50px ;
+        margin-top: 20px;
+        
+    }
+    .hellobtn{
+        text-align: center;
+        padding-right: 90px;
+    }
+
+    
+    .inform1{
+        width: 45%;
+    }
+
+    .product{
+        width: 100%;
+    }
+    .services{
+        height: auto;
+    }
+
+    .sales{
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+    }
+
+    .container4{
+        width: 100%;
+    }
+    .alexander{
+        width: 100%;
+    }
+    .alexcaption{
+        width: 75%;
+    }
+    .alexphoto{
+        width: 25%;
+    }
+    .alexphoto img{
+        width: 80%;
+    }
+    .choose{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .choose .choose1 {
+        margin: 0px;
+        width: 30px;
+    }
+    .choose2{
+        margin: 0px;
+        width: 10px;
+        margin-left: 10px;
+    }
+    .container5{
+        width: 100%;
+    }
+    .blog{
+        width: 100%;
+    }
+
+    .container6{
+        width: 90%;
+    }
+    .container6 .input1{
+        width: 100%;
+        
+    }
+    .container6 .input2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .btnblog{
+        text-align: center;
+      
+    }
+    .btnblog button{
+        padding: 15px 70px;
+    }
+
+}
+@media (min-width:576px) and (max-width:767px){
+    .home .container ul li{
+        display: none;
+    }
+    .timer .part{
+        width: 50%;
+    }
+
+  
+    .home ul{
+        background-color: #333333;
+        display: none;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home .navs{
+        width: 40%;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: center;
+        
+    }
+    .home {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .navbar .navicon{
+        opacity: 1;
+        color: #FF305B;
+        width: 60px;
+        height: 40px;
+        
+       
+    }
+    .alex h1{
+        font-size: 50px;
+    }
+    .alex p{
+        font-size: 20px;
+    }
+
+    .hello .hellophoto{
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+    }
+    .borderhello{
+        width: 60%;
+        margin-left: 30px;
+    }
+    .layerphoto{
+        width: 80%;
+        margin-left: 60px;   
+    }
+    .photo{
+        width: 80%;  
+    }
+    .hellocaption{
+        width: 100%;
+        margin-left:50px ;
+        margin-top: 20px;
+        
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hellobtn{
+        text-align: center;
+        padding-right: 90px;
+    }
+
+    .product{
+        width: 80%;
+    }
+    .services{
+        height: auto;
+    }
+
+    .sales{
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+    }
+       
+
+    .container4{
+        width: 90%;
+    }
+    .alexander{
+        width: 100%;
+    }
+    .alexcaption{
+        width: 70%;
+    }
+    .alexphoto{
+        width: 20%;
+    }
+    .alexphoto img{
+        width: 80%;
+    }
+    .choose{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .choose .choose1 {
+        margin: 0px;
+        width: 30px;
+    }
+    .choose2{
+        margin: 0px;
+        width: 10px;
+        margin-left: 10px;
+    }
+    .container5{
+        width: 80%;
+    }
+    .blog{
+        width: 100%;
+    }
+
+    .container6{
+        width: 90%;
+    }
+    .container6 .input1{
+        width: 100%;
+        
+    }
+    .container6 .input2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .btnblog{
+        text-align: center;
+      
+    }
+    .btnblog button{
+        padding: 15px 70px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .home .container ul li{
+        display: none;
+    }
+    .timer .part{
+        width: 50%;
+    }
+
+  
+    .home ul{
+        background-color: #333333;
+        display: none;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home .navs{
+        width: 40%;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: center;
+        
+    }
+    .home {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .navbar .navicon{
+        opacity: 1;
+        color: #FF305B;
+        width: 60px;
+        height: 40px;
+        
+       
+    }
+    .alex h1{
+        font-size: 60px;
+    }
+    .alex p{
+        font-size: 25px;
+    }
+
+    .hello .hellophoto{
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+    }
+    .borderhello{
+        width: 60%;
+        margin-left: 30px;
+    }
+    .layerphoto{
+        width: 80%;
+        margin-left: 60px;   
+    }
+    .photo{
+        width: 80%;  
+    }
+    .hellocaption{
+        width: 60%;
+        margin-left:50px ;
+        margin-top: 20px;
+ 
+    
+        margin-left: 210px;
+        
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .4);    
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hellobtn{
+        text-align: center;
+        padding-right: 90px;
+     
+        margin-top: 20px;
+    }
+    .hellobtn button{
+        margin-top: 20px;
+        padding: 20px 40px;
+    }
+
+    .product{
+        width: 80%;
+    }
+    .services{
+        height: auto;
+    }
+
+    .sales{
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+    }
+       
+
+    .container4{
+        width: 90%;
+    }
+    .alexander{
+        width: 100%;
+    }
+    .alexcaption{
+        width: 70%;
+    }
+    .alexphoto{
+        width: 20%;
+    }
+    .alexphoto img{
+        width: 80%;
+    }
+    .choose{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .choose .choose1 {
+        margin: 0px;
+        width: 30px;
+    }
+    .choose2{
+        margin: 0px;
+        width: 10px;
+        margin-left: 10px;
+    }
+    .container5{
+        width: 80%;
+    }
+    .blog{
+        width: 100%;
+    }
+
+    .container6{
+        width: 90%;
+    }
+    .container6 .input1{
+        width: 100%;
+        
+    }
+    .container6 .input2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .btnblog{
+        text-align: center;
+      
+    }
+    .btnblog button{
+        padding: 15px 70px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .home .container ul li{
+        display: none;
+    }
+    .timer .part{
+        width: 50%;
+    }
+
+  
+    .home ul{
+        display: none;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home .navs{
+        width: 40%;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: center;
+        
+    }
+    .home {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .navbar .navicon{
+        opacity: 1;
+        color: #FF305B;
+        width: 60px;
+        height: 40px;
+        
+       
+    }
+    .alex h1{
+        font-size: 80px;
+    }
+    .alex p{
+        font-size: 35px;
+    }
+
+    .hello .hellophoto{
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+    }
+    .borderhello{
+        width: 60%;
+        margin-left: 30px;
+    }
+    .layerphoto{
+        width: 80%;
+        margin-left: 60px;   
+    }
+    .photo{
+        width: 80%;  
+    }
+    .hellocaption{
+        width: 100%;
+        margin-left:50px ;
+        margin-top: 20px;
+        
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hellobtn{
+        text-align: center;
+        padding-right: 90px;
+    }
+
+    .product{
+        width: 80%;
+    }
+    .services{
+        height: auto;
+    }
+
+    .sales{
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+    }
+       
+
+    .container4{
+        width: 90%;
+    }
+    .alexander{
+        width: 100%;
+    }
+    .alexcaption{
+        width: 70%;
+    }
+    .alexphoto{
+        width: 20%;
+    }
+    .alexphoto img{
+        width: 80%;
+    }
+    .choose{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .choose .choose1 {
+        margin: 0px;
+        width: 30px;
+    }
+    .choose2{
+        margin: 0px;
+        width: 10px;
+        margin-left: 10px;
+    }
+    .container5{
+        width: 80%;
+    }
+    .blog{
+        width: 100%;
+    }
+
+    .container6{
+        width: 90%;
+    }
+    .container6 .input1{
+        width: 100%;
+        
+    }
+    .container6 .input2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .btnblog{
+        text-align: center;
+      
+    }
+    .btnblog button{
+        padding: 15px 70px;
+    }
+}
+@media (min-width:1200px){
+    
+}
