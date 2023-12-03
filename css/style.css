@@ -1069,7 +1069,7 @@ iframe{
         font-size: 60px;
     }
     .alex p{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .hello .hellophoto{
@@ -1102,6 +1102,7 @@ iframe{
         height: 100%;
         background-color: rgba(0, 0, 0, .4);    
     }
+
     .container1{
         display: flex;
         flex-direction: column;
@@ -1146,7 +1147,7 @@ iframe{
         width: 20%;
     }
     .alexphoto img{
-        width: 80%;
+        width: 60%;
     }
     .choose{
         display: flex;
